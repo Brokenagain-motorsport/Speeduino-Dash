@@ -29,3 +29,12 @@ Check the files section for demo videos and actual screenshots
 
   ### Current Bugs
   -web portal is a bit flakey and requires more development
+
+
+  ###HARDWARE
+  Freenove FNK103, ESP32 CYD 3.5 Inch Touch Display WiFi BT Dual-core 32-bit 240 MHz Microcontroller
+  <img width="605" height="333" alt="image" src="https://github.com/user-attachments/assets/5062cff9-566b-4062-8729-468183eb2774" />
+
+  <img width="580" height="564" alt="image" src="https://github.com/user-attachments/assets/498c2bbd-7d10-400a-8d4f-0c369cf87719" />
+
+
