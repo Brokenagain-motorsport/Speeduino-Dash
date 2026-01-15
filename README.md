@@ -72,7 +72,7 @@ run esp_dash_v1.ino and allow it to create a folder then move lv_conf.h and esp_
 
 you should now be able to flash your display
 
-###Connecting Display to ECU
+### Connecting Display to ECU
 
 I have only tested this with the Freenove FNK103 and a Speeduino 4.3
 - I couldnt get this to work with a logic level shifter or using a divider, so went direct and it seems to work reliably so far.
