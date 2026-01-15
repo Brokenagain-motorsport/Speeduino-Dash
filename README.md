@@ -40,30 +40,32 @@ Check the files section for demo videos and actual screenshots
 
 ## Installation
 
-  ### Install Arduino IDE 2.3.7
-  
-  ###Download from GitHub
--esp_dash_v1.ino
--lv_conf.h
--esp_dash_v1.cpp
--TFT_eSPI_Setups
--User_Setup.h
--User_Setup_Select.h
+  ### Install
+   Arduino IDE 2.3.7
+   
+  ### Download 
+  files from from GitHub 
+   - esp_dash_v1.ino 
+   - lv_conf.h 
+   - esp_dash_v1.cpp 
+   - TFT_eSPI_Setups 
+   - User_Setup.h 
+   - User_Setup_Select.h 
 
  ### Pre-Requisites 
  install the following Libraries
- -TFT_eSPI by Bodmer v2.5.43
-   -copy User_Setup.h and User_Setup_Select.h into the TFT_eSPI library folder overwriting the existing
-   -copy TFT_eSPI_Setups folder into the Arduino Libraries space
-   <img width="261" height="110" alt="image" src="https://github.com/user-attachments/assets/e077f77a-ef32-4370-bf04-f4724dc25f19" />
-
- -lvgl by Kisvegabor v8.4.0
+   - TFT_eSPI by Bodmer v2.5.43
+   - copy User_Setup.h and User_Setup_Select.h into the TFT_eSPI library folder overwriting the existing
+   - copy TFT_eSPI_Setups folder into the Arduino Libraries space
+   - <img width="261" height="110" alt="image" src="https://github.com/user-attachments/assets/e077f77a-ef32-4370-bf04-f4724dc25f19" />
+   
+   - lvgl by Kisvegabor v8.4.0
 
  install the following board type
- -esp32 by Espressif Systems v3.3.5
-   -set board to ESP32 Dev Module
-   -PSRAM = Enabled
-   -Partition Scheme = Huge APP (3MB No OTA/1MB SPIFFS)
+   - esp32 by Espressif Systems v3.3.5
+   - set board to ESP32 Dev Module
+   - PSRAM = Enabled
+   - Partition Scheme = Huge APP (3MB No OTA/1MB SPIFFS)
    
 ### Prepare the firmware
 run esp_dash_v1.ino and allow it to create a folder then move lv_conf.h and esp_dash_v1.cpp into the same folder.
