@@ -72,5 +72,21 @@ run esp_dash_v1.ino and allow it to create a folder then move lv_conf.h and esp_
 
 you should now be able to flash your display
 
+###Connecting Display to ECU
+
+I have only tested this with the Freenove FNK103 and a Speeduino 4.3
+- I couldnt get this to work with a logic level shifter or using a divider, so went direct and it seems to work reliably so far.
+- My board was damaged and 1 of the resistor was missing on the serial line just behind the port. i ended up removing both and bridging them
+
+FNK103  
+Serial Port_____________Speeduino  
+5v---------------------------------5v  
+Gnd--------------------------------Gnd  
+Tx---------------------------------Pin 15 RX (Arduino Mega 2560)  
+RX---------------------------------Pin 14 TX (Arduino Mega 2560)
+
+## **USE THIS AT YOUR OWN RISK**
+
+
 
 
